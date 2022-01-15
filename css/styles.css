@@ -6,7 +6,6 @@ Fonts
 
 @import url('https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel');
 
-
 /* 
 ===============
 Variables
@@ -144,7 +143,8 @@ Header
 */
 .header {
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.6)), url('../images/main-bcg.jpeg') center/cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url('../images/main-bcg.jpeg') center/cover no-repeat fixed;
   position: relative;
   /* animation */
   overflow-x: hidden;
@@ -183,7 +183,12 @@ Header
 /* content divider */
 .content-divider {
   height: 0.5rem;
-  background: linear-gradient(to left, var(--clr-primary), #e9b949, var(--clr-primary))
+  background: linear-gradient(
+    to left,
+    var(--clr-primary),
+    #e9b949,
+    var(--clr-primary)
+  );
 }
 
 /* 
@@ -224,4 +229,16 @@ Skills
 /* when hovering over skill, what happens to skill-icon */
 .skill:hover .skill-icon {
   transform: translateY(-5px);
+}
+
+@media screen and (min-width: 576px) {
+  .skill {
+    float: left;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .skill {
+    width: 25%;
+  }
 }
