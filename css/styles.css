@@ -148,12 +148,10 @@ Header
   position: relative;
   /* animation */
   overflow-x: hidden;
-  border: blue solid 3px;
 }
 
 .banner {
   text-align: center;
-  border: red solid 3px;
   position: absolute;
   top: 50%;
   left: 50%;
