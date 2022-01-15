@@ -136,6 +136,13 @@ p {
   background: var(--clr-primary-light);
 }
 
+.clearfix::after, .clearfix::before {
+  content: '';
+  clear: both;
+  /* prevents margins from collapsing */
+  display: table;
+}
+
 /* 
 ===============
 Header
