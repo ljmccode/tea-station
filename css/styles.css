@@ -238,6 +238,13 @@ NavBar
   border-left: 0.25rem solid var(--clr-primary);
 }
 
+@media screen and (min-width: 768px) {
+  .navbar {
+    width: 30%;
+    max-width: 20rem;
+  }
+}
+
 
 /* 
 ===============
