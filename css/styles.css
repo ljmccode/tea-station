@@ -539,6 +539,13 @@ Contact
   border-bottom-right-radius: var(--radius);
 }
 
+@media screen and (min-width: 922px) {
+  .contact-form, .contact-info {
+    float: left;
+    width: 50%;
+  }
+}
+
 
 
 
