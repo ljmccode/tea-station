@@ -671,7 +671,7 @@ Contact
 }
 
 .form-group {
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.5rem 0 1.5rem;
 }
 
 .form-control {
@@ -682,6 +682,7 @@ Contact
   margin-bottom: 1.25rem;
   background: var(--clr-grey-10);
   border-radius: var(--radius);
+  font-family: var(--ff-primary);
 }
 
 .form-control::placeholder {
@@ -689,6 +690,16 @@ Contact
   color: var(--clr-grey-1);
   text-transform: uppercase;
   letter-spacing: var(--spacing);
+}
+
+.message {
+  margin-bottom: 0;
+}
+
+.result {
+  margin: 1rem;
+  /* display: none; */
+  opacity: 0;
 }
 
 .submit-btn {
